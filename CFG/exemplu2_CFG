@@ -1,0 +1,10 @@
+[Vars]
+EXPR,*
+[Sigma]
++
+*
+a
+[Rules]
+EXPR->EXPR,+,EXPR
+EXPR->EXPR,*,EXPR
+EXPR->a
